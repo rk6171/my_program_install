@@ -6,3 +6,4 @@ egrep -c '(svm)' /proc/cpuinfo
 
 sudo apt update
 sudo apt install qemu-kvm libvirt-daemon-system virt-manager bridge-utils
+sudo usermod -aG libvirt $USER
