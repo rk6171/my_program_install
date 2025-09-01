@@ -10,3 +10,4 @@ sudo usermod -aG libvirt $USER
 
 sudo apt install qemu-system 
 pt-get install qemu-user-static
+sudo apt install minigalaxy
